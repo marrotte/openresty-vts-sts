@@ -1,9 +1,9 @@
-# Dockerfile - Ubuntu Xenial
-# https://github.com/openresty/docker-openresty
+# Dockerfile - Ubuntu Xenial OpenResty/Nginx+vts-sts
+# https://github.com/marrotte/openresty-vts-sts/ 
 
 FROM ubuntu:xenial
 
-MAINTAINER Evan Wies <evan@neomantra.net>
+MAINTAINER Mike Marrotte <marrotte@gmail.com>
 
 # Docker Build Arguments
 ARG RESTY_VERSION="1.11.2.2"
